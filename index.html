@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"/>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 34);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(4, 4, 21);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(156, 156, 226);
+        font-size: 1.01rem;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+      
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2.5rem;
+      }
+      
+      .rightSection img {
+        width: 80%;
+      }
+
+      .about {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+
+      .purple {
+        color : rgb(163, 78, 243)
+      }
+
+      .text-gray {
+        color: gray;
+      }
+
+      #element {
+        color: rgb(163, 78, 243);
+      }
+
+      .about {
+        max-width: 80vw;
+        margin:  auto;
+        height: 50vh;
+      }
+
+      .about div h1 {
+        font-size: 1.9rem;
+      }
+      
+      .aboutright img {
+        width: 300px;
+      }
+
+      .skills {
+        max-width: 80vw;
+        margin:  auto;
+        height: 30vh;
+      }
+
+      .skills ul {
+        margin: 20px 0;
+        justify-content: space-around;
+      }
+
+      .project {
+        max-width: 80vw;
+        margin:  auto;
+        height: 30vh;
+      }
+
+      .project ul li {
+        margin: 20px 0;
+      }
+
+      .contact {
+        max-width: 80vw;
+        margin:  auto;
+        height: 30vh;
+      }
+
+      .contact div a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .contact div a:hover {
+        color: #9c97f1;
+      }
+
+      .foot h5 {
+        background-color: rgb(67, 18, 112);
+        height: 3vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Kaif's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi my name is <span class="purple">Kaif</span>
+                <div> and i am a Student</div>
+                <div>at Aliah University</div>
+                <span id="element"></span> 
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="about">
+            <div class="aboutleft">
+                <h1>About Me</h1>
+                <div>Hi!! Myself Md Kaif Alam</div>
+                <div>I am currently pursuing B.TECH from Aliah University.</div> 
+                <div>I had completed my Secondary School from ICSE </div>
+                <div>and Higher Secondart School from ISC.</div> 
+                <div>I am a quick learner, problem solver,etc.</div>
+                <div>I have qualified GATE'23 CS securing AIR 99.</div>
+            </div>
+            <div class="aboutright">
+                <img src="portfolioimg.jpeg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="skills">
+            <h1>Skills</h1>
+            <ul>
+                <li>Data Structures and Algorithm</li> 
+                <li>Java</li>
+                <li>C</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        <hr>
+        <section class="project">
+            <h1>Projects</h1>
+            <ul>
+                <li>Landing page using html and css </li>
+                <li>Portfolio using html css and javascript </li>
+                <li>Calculator using html css and javascript </li>
+            </ul>
+        </section>
+        <hr>
+        <section class="contact">
+            <h1>Contact Me</h1>
+            <div><span class="purple">Email : </span> kaifalam768@gmail.com</div>
+            <div><span class="purple">Mobile no.:- </span>8910078737</div>
+            <div><span class="purple">LinkedIn :- </span> <a href="https://www.linkedin.com/in/md-kaif-alam-213799220">My LinkedIn profile</a></div>
+            <div><span class="purple">Instagram :- </span> <a href="https://instagram.com/_md_kaif_alam_?igshid=MzNlNGNkZWQ4Mg==">My Instagram ID</a></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="foot"><h5>© 2023 Md Kaif Alam , All rights reserved.</h5></div>
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Devloper', 'Software Devloper','JAVA'],
+          typeSpeed: 50,
+        });
+    </script>
+  </body>
+</html>
